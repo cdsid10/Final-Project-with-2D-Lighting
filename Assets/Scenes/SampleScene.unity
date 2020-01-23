@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452003033}
   - component: {fileID: 452003032}
+  - component: {fileID: 452003031}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -137,6 +138,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &452003031
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452003030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8207677babe036449b092638023f3018, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &452003032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -701,4 +721,8 @@ MonoBehaviour:
   moveSpeed: 3
   theRB: {fileID: 1954730580}
   gunArm: {fileID: 1805204213}
-  facingRight: 0
+  anim: {fileID: 0}
+  dashSpeed: 8
+  dashLength: 0.5
+  dashCD: 0.8
+  dashCounter: 0

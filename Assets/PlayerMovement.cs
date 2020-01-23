@@ -8,19 +8,36 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D theRB;
     public Transform gunArm;
+    public Animator anim;
 
-    public bool facingRight;
 
     private float activeMoveSpeed;
+    public float dashSpeed = 8f, dashLength = .5f, dashCD = 1f;
+    [HideInInspector]
+    public float dashCounter;
+    private float dashCoolCounter;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        activeMoveSpeed = moveSpeed;
     }
 
     // Update is called once per frame
     void Update()
+    {
+
+        Move();
+
+        MouseRotate();
+
+        Dash();
+
+    }
+
+    
+
+    void Move()
     {
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
@@ -29,10 +46,40 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position += new Vector3(moveInput.x * Time.deltaTime * moveSpeed, moveInput.y * Time.deltaTime * moveSpeed, 0.0f);
 
-        theRB.velocity = moveInput * moveSpeed;
+        theRB.velocity = moveInput * activeMoveSpeed;
+    }
 
-        //FlipPlayer();
+    void Dash()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            if (dashCoolCounter <= 0 && dashCounter <= 0)
+            {
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
 
+                //anim.setTrigger("Dash");
+            }
+        }
+
+        if (dashCounter > 0)
+        {
+            dashCounter -= Time.deltaTime;
+            if (dashCounter <= 0)
+            {
+                activeMoveSpeed = moveSpeed;
+                dashCoolCounter = dashCD;
+            }
+        }
+
+        if (dashCoolCounter > 0)
+        {
+            dashCoolCounter -= Time.deltaTime;
+        }
+    }
+
+    void MouseRotate()
+    {
         //Mouse Position Variables
         Vector3 mousePos = Input.mousePosition;
         Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.localPosition);
@@ -55,18 +102,4 @@ public class PlayerMovement : MonoBehaviour
         gunArm.rotation = Quaternion.Euler(0, 0, angle);
 
     }
-
-    /*private void FlipPlayer()
-    {
-        if (moveInput.x < 0)
-        {
-            facingRight = false;
-            transform.localRotation = Quaternion.Euler(0, 0, 90);
-        }
-        else if (moveInput.x > 0)
-        {
-            facingRight = true;
-            transform.localRotation = Quaternion.Euler(0, 0, -90);
-        }
-    } */
 }
