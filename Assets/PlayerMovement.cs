@@ -47,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
         transform.position += new Vector3(moveInput.x * Time.deltaTime * moveSpeed, moveInput.y * Time.deltaTime * moveSpeed, 0.0f);
 
         theRB.velocity = moveInput * activeMoveSpeed;
+
+        
     }
 
     void Dash()
