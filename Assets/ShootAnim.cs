@@ -5,17 +5,50 @@ using UnityEngine;
 public class ShootAnim : MonoBehaviour
 {
     public Animator anim;
+    public GameObject bullet;
+    public Transform firePoint;
+
+    public float timeBetweenShots;
+    private float shotCounter;
+
+    public float startTime;
+    public float endTime;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Mouse0))
+
+        if (Input.GetMouseButton(0))
+        {
+            startTime += Time.deltaTime;
+        }
+
+            if (startTime >= endTime)
+            {
+
+
+                if (Input.GetMouseButtonUp(0))
+                {
+
+                    anim.SetTrigger("shotaf");
+
+                    Instantiate(bullet, firePoint.position, firePoint.rotation);
+
+                    shotCounter = timeBetweenShots;
+
+                    startTime = 0;
+                }
+
+            }
+        
+
+        if (Input.GetMouseButton(0))
         {
             anim.SetBool("isShooting", true);
         }
@@ -24,4 +57,8 @@ public class ShootAnim : MonoBehaviour
             anim.SetBool("isShooting", false);
         }
     }
+    
 }
+
+    
+
