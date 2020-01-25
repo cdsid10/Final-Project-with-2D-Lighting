@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
                 activeMoveSpeed = dashSpeed;
                 dashCounter = dashLength;
 
-                //anim.setTrigger("Dash");
+                anim.SetTrigger("dash");
             }
         }
 
