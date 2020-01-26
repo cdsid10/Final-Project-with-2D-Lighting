@@ -748,7 +748,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1805204215}
-  bullet: {fileID: 6723263866614396428, guid: 6b19b989c57d1aa42a32d2fea89850f1, type: 3}
+  bullets:
+  - {fileID: 6723263866614396428, guid: 6b19b989c57d1aa42a32d2fea89850f1, type: 3}
+  - {fileID: 2035075463526284081, guid: 4ee4a71cd1dda414cba92c34284974b8, type: 3}
+  - {fileID: 4984923056883770774, guid: 47f359d51d75e1f46a5a4c3e9de021a7, type: 3}
   firePoint: {fileID: 1304585631}
   timeBetweenShots: 1.5
   startTime: 0

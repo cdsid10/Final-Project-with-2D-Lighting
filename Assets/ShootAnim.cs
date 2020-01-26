@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShootAnim : MonoBehaviour
 {
     public Animator anim;
-    public GameObject bullet;
+    public GameObject[] bullets;
     public Transform firePoint;
 
     public float timeBetweenShots;
@@ -38,7 +38,7 @@ public class ShootAnim : MonoBehaviour
 
                     anim.SetTrigger("shotaf");
 
-                    Instantiate(bullet, firePoint.position, firePoint.rotation);
+                    Instantiate(bullets[Random.Range(0, bullets.Length)], firePoint.position, firePoint.rotation);
 
                     shotCounter = timeBetweenShots;
 
