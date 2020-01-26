@@ -44,11 +44,18 @@ public class PlayerMovement : MonoBehaviour
 
         moveInput.Normalize();
 
-        transform.position += new Vector3(moveInput.x * Time.deltaTime * moveSpeed, moveInput.y * Time.deltaTime * moveSpeed, 0.0f);
+        //transform.position += new Vector3(moveInput.x * Time.deltaTime * moveSpeed, moveInput.y * Time.deltaTime * moveSpeed, 0.0f);
 
         theRB.velocity = moveInput * activeMoveSpeed;
 
-        
+        if(moveInput != Vector2.zero)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+        }
     }
 
     void Dash()
