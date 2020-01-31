@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D theRB;
     public Transform gunArm;
     public Animator anim;
+    public Transform dLight;
 
 
     private float activeMoveSpeed;
@@ -98,11 +99,13 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
             gunArm.localScale = new Vector3(-1f, -1f, 1f);
+            dLight.localRotation = Quaternion.Euler(0, -180, -90f);
         }
         else
         {
             transform.localScale = Vector3.one;
             gunArm.localScale = Vector3.one;
+            dLight.localRotation = Quaternion.Euler(0, 0, -90f);
         }
 
         //Rotate Weapon with Mouse
