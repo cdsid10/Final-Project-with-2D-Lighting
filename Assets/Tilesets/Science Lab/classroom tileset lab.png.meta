@@ -1,0 +1,1087 @@
+fileFormatVersion: 2
+guid: 8d702a5d329f151488411ec62f4c8213
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6662114052043313212
+    second: classroom tileset lab_0
+  - first:
+      213: 2079942845807334437
+    second: classroom tileset lab_1
+  - first:
+      213: 7695064229830857320
+    second: classroom tileset lab_2
+  - first:
+      213: 7127582383575037112
+    second: classroom tileset lab_3
+  - first:
+      213: -3520558100906658741
+    second: classroom tileset lab_4
+  - first:
+      213: -4398966408546950310
+    second: classroom tileset lab_5
+  - first:
+      213: -5111593626590513635
+    second: classroom tileset lab_6
+  - first:
+      213: 4807899886740598068
+    second: classroom tileset lab_7
+  - first:
+      213: -5116470001379539053
+    second: classroom tileset lab_8
+  - first:
+      213: -5511473651783583507
+    second: classroom tileset lab_9
+  - first:
+      213: 5002158140297912047
+    second: classroom tileset lab_10
+  - first:
+      213: -5861515114928961065
+    second: classroom tileset lab_11
+  - first:
+      213: 7171116165809933242
+    second: classroom tileset lab_12
+  - first:
+      213: 8100383550011598048
+    second: classroom tileset lab_13
+  - first:
+      213: 8465608610304312910
+    second: classroom tileset lab_14
+  - first:
+      213: 6494259463181803377
+    second: classroom tileset lab_15
+  - first:
+      213: -1586720106471603695
+    second: classroom tileset lab_16
+  - first:
+      213: -8498971205171606085
+    second: classroom tileset lab_17
+  - first:
+      213: -5641420871050324466
+    second: classroom tileset lab_18
+  - first:
+      213: 8597737761279519796
+    second: classroom tileset lab_19
+  - first:
+      213: 4904390327827545857
+    second: classroom tileset lab_20
+  - first:
+      213: 4683073525637004677
+    second: classroom tileset lab_21
+  - first:
+      213: -7859468482790409661
+    second: classroom tileset lab_22
+  - first:
+      213: 8431802739671946157
+    second: classroom tileset lab_23
+  - first:
+      213: 348221750332439144
+    second: classroom tileset lab_24
+  - first:
+      213: -5074028313664381068
+    second: classroom tileset lab_25
+  - first:
+      213: 189956507853710165
+    second: classroom tileset lab_26
+  - first:
+      213: 1512861196717631602
+    second: classroom tileset lab_27
+  - first:
+      213: -1153960810210905510
+    second: classroom tileset lab_28
+  - first:
+      213: 6028610311645580549
+    second: classroom tileset lab_29
+  - first:
+      213: -7120116593053162802
+    second: classroom tileset lab_30
+  - first:
+      213: 5583500893141488596
+    second: classroom tileset lab_31
+  - first:
+      213: 2320531878782451284
+    second: classroom tileset lab_32
+  - first:
+      213: 6209816703348388525
+    second: classroom tileset lab_33
+  - first:
+      213: 1444815651282278403
+    second: classroom tileset lab_34
+  - first:
+      213: -9082442151056393778
+    second: classroom tileset lab_35
+  - first:
+      213: -7277388444948463719
+    second: classroom tileset lab_36
+  - first:
+      213: 4788417755939671029
+    second: classroom tileset lab_37
+  - first:
+      213: -5402528723399780080
+    second: classroom tileset lab_38
+  - first:
+      213: 8362221788146255901
+    second: classroom tileset lab_39
+  - first:
+      213: 8942957870063288393
+    second: classroom tileset lab_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: classroom tileset lab_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c301e25de65947c50800000000000000
+      internalID: 6662114052043313212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524167d8ff07ddc10800000000000000
+      internalID: 2079942845807334437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86212e6952c5aca60800000000000000
+      internalID: 7695064229830857320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b472501a624ae260800000000000000
+      internalID: 7127582383575037112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44b5585f07742fc0800000000000000
+      internalID: -3520558100906658741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53eeafab5bb3f2c0800000000000000
+      internalID: -4398966408546950310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 126
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16fbe2dda8ff09b0800000000000000
+      internalID: -5111593626590513635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d60d0497719b240800000000000000
+      internalID: 4807899886740598068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39784d754a5aef8b0800000000000000
+      internalID: -5116470001379539053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8b38c2aef4383b0800000000000000
+      internalID: -5511473651783583507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee19c6735c3b6540800000000000000
+      internalID: 5002158140297912047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d983110f07b7aea0800000000000000
+      internalID: -5861515114928961065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 84
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb892a982ce48360800000000000000
+      internalID: 7171116165809933242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4ebdacbe75a6070800000000000000
+      internalID: 8100383550011598048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e464da8ad22eb7570800000000000000
+      internalID: 8465608610304312910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f9b2ed29e302a50800000000000000
+      internalID: 6494259463181803377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1124acf4876daf9e0800000000000000
+      internalID: -1586720106471603695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd0977e7b69d0a80800000000000000
+      internalID: -8498971205171606085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0612987b95a5b1b0800000000000000
+      internalID: -5641420871050324466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c270de0fc415770800000000000000
+      internalID: 8597737761279519796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb502c405ef0440800000000000000
+      internalID: 4904390327827545857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d31a04f8e9df040800000000000000
+      internalID: 4683073525637004677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a36ef5e0f8de290800000000000000
+      internalID: -7859468482790409661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3df4a0be7c30570800000000000000
+      internalID: 8431802739671946157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a31a346d125d400800000000000000
+      internalID: 348221750332439144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 22
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f92cfc12e6599b0800000000000000
+      internalID: -5074028313664381068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 22
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e46dff6cd2a200800000000000000
+      internalID: 189956507853710165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 22
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a3d03e33cef410800000000000000
+      internalID: 1512861196717631602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 22
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5238aec1ce4cffe0800000000000000
+      internalID: -1153960810210905510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d44e2332de9a350800000000000000
+      internalID: 6028610311645580549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 33
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a3bfbea3403d90800000000000000
+      internalID: -7120116593053162802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d356caca749c7d40800000000000000
+      internalID: 5583500893141488596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_32
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 22
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e3cc4f27f243020800000000000000
+      internalID: 2320531878782451284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 22
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da23e530463bd2650800000000000000
+      internalID: 6209816703348388525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308da9c0e240d0410800000000000000
+      internalID: 1444815651282278403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9bf350cfea4f180800000000000000
+      internalID: -9082442151056393778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_36
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f705e34c5810b90800000000000000
+      internalID: -7277388444948463719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb05f23490e37240800000000000000
+      internalID: 4788417755939671029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01959e8ffbc5605b0800000000000000
+      internalID: -5402528723399780080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d184d7f49649c0470800000000000000
+      internalID: 8362221788146255901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: classroom tileset lab_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940086e0dc4cb1c70800000000000000
+      internalID: 8942957870063288393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
