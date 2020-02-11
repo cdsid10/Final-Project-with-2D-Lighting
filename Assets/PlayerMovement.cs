@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public Transform dLight;
 
-
+    [SerializeField]
     private float activeMoveSpeed;
     public float dashSpeed = 8f, dashLength = .5f, dashCD = 1f;
     [HideInInspector]
