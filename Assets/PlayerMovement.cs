@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
+
     private Vector2 moveInput;
     public float moveSpeed = 5f;
     public Rigidbody2D theRB;
@@ -17,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public float dashCounter;
     private float dashCoolCounter;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7330560973049623017}
   - component: {fileID: 6384804717303395052}
   - component: {fileID: 2880867269736645410}
+  - component: {fileID: 2442345519000299074}
   m_Layer: 0
   m_Name: eraser
   m_TagString: Untagged
@@ -47,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -94,8 +96,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b028fd31cfca0488d0f1cbc54861c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  currentBullet: 1
+  speed: 25
   theRB: {fileID: 2880867269736645410}
+  impactEffect: {fileID: 7422374595652649649, guid: e34e2f6a1cfcde641bb9f861151dc472,
+    type: 3}
+  damageToGive: 50
 --- !u!50 &2880867269736645410
 Rigidbody2D:
   serializedVersion: 4
@@ -117,3 +123,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &2442345519000299074
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4984923056883770774}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 0.625}
+    newSize: {x: 1.25, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.25153208, y: 0.37997723}
+  m_EdgeRadius: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2744206743618537470}
   - component: {fileID: -366451751717676217}
   - component: {fileID: -3258712927613530078}
+  - component: {fileID: 2864692793434164985}
   m_Layer: 0
   m_Name: pencil
   m_TagString: Untagged
@@ -47,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -94,8 +96,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b028fd31cfca0488d0f1cbc54861c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  currentBullet: 0
+  speed: 20
   theRB: {fileID: -3258712927613530078}
+  impactEffect: {fileID: 2598916590977203923, guid: 2530ba0feab6522418965e031719a0dd,
+    type: 3}
+  damageToGive: 50
 --- !u!50 &-3258712927613530078
 Rigidbody2D:
   serializedVersion: 4
@@ -117,3 +123,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &2864692793434164985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035075463526284081}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0015314519, y: -0.0015312433}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 0.625}
+    newSize: {x: 1.25, y: 0.625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.750766, y: 0.12576604}
+  m_EdgeRadius: 0
