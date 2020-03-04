@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
 
     public int health = 150;
 
-    public GameObject deathSplatter;
+    public GameObject[] deathSplatters;
     public GameObject hitEffect;
 
     // Start is called before the first frame update
@@ -56,7 +56,7 @@ public class EnemyController : MonoBehaviour
             Destroy(gameObject);
 
             int rotation = Random.Range(0, 4);
-            Instantiate(deathSplatter, transform.position, Quaternion.Euler(0, 0, rotation * 90));
+            Instantiate(deathSplatters[Random.Range(0, deathSplatters.Length)], transform.position, Quaternion.Euler(0, 0, rotation * 90));
         }
     }
 }
