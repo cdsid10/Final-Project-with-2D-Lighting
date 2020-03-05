@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
     public GameObject[] deathSplatters;
     public GameObject hitEffect;
 
+    public GameObject floatingText;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,11 +44,17 @@ public class EnemyController : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
+
+        
     }
 
     public void DamageEnemy(int damage)
     {
         health -= damage;
+        if (floatingText)
+        {
+            Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+        }
 
         Instantiate(hitEffect, transform.position, transform.rotation);
 

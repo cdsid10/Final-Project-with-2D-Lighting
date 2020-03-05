@@ -99,9 +99,13 @@ MonoBehaviour:
   rangeToChasePlayer: 7
   anim: {fileID: 8618995384690605594}
   health: 150
-  deathSplatter: {fileID: 5363292153568810753, guid: 0f975c86d7b125b489279e0d6aa947ec,
-    type: 3}
+  deathSplatters:
+  - {fileID: 1753776655051819956, guid: 8b20efeaf95d4214a8346d5dc7deb95f, type: 3}
+  - {fileID: 1729211754501034531, guid: 1f65c3cf8f06ca440b82fa9e5fde598e, type: 3}
+  - {fileID: 3008190686402010886, guid: f3cc46ba7f0ff5d458e3a927877179bb, type: 3}
   hitEffect: {fileID: 6937551874430024450, guid: fc5ef2ac830d77346b70df2abecb4fd2,
+    type: 3}
+  floatingText: {fileID: 7310960550584268640, guid: dfb0afa06d17c7b4391be30a7018a2a7,
     type: 3}
 --- !u!212 &8618995384469502023
 SpriteRenderer:
