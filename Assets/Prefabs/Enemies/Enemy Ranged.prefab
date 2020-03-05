@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8618995384469502019}
   - component: {fileID: 8618995384469502020}
   - component: {fileID: 8618995384469502021}
+  - component: {fileID: 116845128362727264}
   - component: {fileID: 8618995384469502023}
   m_Layer: 0
   m_Name: Enemy Ranged
@@ -107,6 +108,19 @@ MonoBehaviour:
     type: 3}
   floatingText: {fileID: 7310960550584268640, guid: dfb0afa06d17c7b4391be30a7018a2a7,
     type: 3}
+--- !u!114 &116845128362727264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8618995384469502016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64be725bb33e4840ba53b1c277fded9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barbell: {fileID: 0}
 --- !u!212 &8618995384469502023
 SpriteRenderer:
   m_ObjectHideFlags: 0
