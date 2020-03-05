@@ -51,9 +51,10 @@ public class EnemyController : MonoBehaviour
     public void DamageEnemy(int damage)
     {
         health -= damage;
+
         if (floatingText)
         {
-            Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+            Instantiate(floatingText, transform.position, Quaternion.identity);
         }
 
         Instantiate(hitEffect, transform.position, transform.rotation);
