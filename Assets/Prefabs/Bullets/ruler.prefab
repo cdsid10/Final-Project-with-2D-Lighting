@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentBullet: 2
-  speed: 15
+  speed: 10
   theRB: {fileID: 216234438860645177}
   impactEffect: {fileID: 8622131538113605315, guid: f0d642b23477cbd468f69acfe33c22a2,
     type: 3}

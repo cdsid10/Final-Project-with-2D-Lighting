@@ -35,6 +35,18 @@ public class PlayerBullet : MonoBehaviour
 
         theRB.velocity = transform.right * speed;
 
+        if(currentBullet == BulletType.Pencil)
+        {
+            damageToGive = 50;
+        }
+        else if(currentBullet == BulletType.Eraser)
+        {
+            damageToGive = 25;
+        }
+        else if(currentBullet == BulletType.Ruler)
+                {
+            damageToGive = 75;
+        }
         
         
     }
