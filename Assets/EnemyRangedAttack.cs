@@ -4,16 +4,37 @@ using UnityEngine;
 
 public class EnemyRangedAttack : MonoBehaviour
 {
-    bool hasThrown = false;
+ 
+
+    public Animator anim;
+    public bool shouldShoot;
+
+    public GameObject bullet;
+    public Transform firePoint;
+    public float fireRate;
+    private float fireCounter;
     
 
-    void Throwbarbell()
+
+    public void Throwbarbell()
     {
-        hasThrown = true;
+        fireCounter -= Time.deltaTime;
+
+        if (fireCounter <= 0)
+        {
+          
+            
+            fireCounter = fireRate;
+            Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
+
+        }
+      
     }
+
 
     private void Update()
     {
-       
+      
+        
     }
 }

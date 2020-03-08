@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2437136440675615355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693865554406085407}
+  m_Layer: 10
+  m_Name: Fire Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693865554406085407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437136440675615355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.773, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8618995384469502018}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8618995384469502016
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,9 +42,9 @@ GameObject:
   - component: {fileID: 8618995384469502019}
   - component: {fileID: 8618995384469502020}
   - component: {fileID: 8618995384469502021}
-  - component: {fileID: 116845128362727264}
+  - component: {fileID: 2136090768274898351}
   - component: {fileID: 8618995384469502023}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy Ranged
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -33,6 +63,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8618995384690605592}
+  - {fileID: 693865554406085407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -108,7 +139,7 @@ MonoBehaviour:
     type: 3}
   floatingText: {fileID: 7310960550584268640, guid: dfb0afa06d17c7b4391be30a7018a2a7,
     type: 3}
---- !u!114 &116845128362727264
+--- !u!114 &2136090768274898351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,7 +151,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d64be725bb33e4840ba53b1c277fded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barbell: {fileID: 0}
+  anim: {fileID: 8618995384690605594}
+  shouldShoot: 1
+  bullet: {fileID: 7276667091037024088, guid: 3d2b0a587ed1574429fa404d85670674, type: 3}
+  firePoint: {fileID: 693865554406085407}
+  fireRate: 2
 --- !u!212 &8618995384469502023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -182,7 +217,8 @@ GameObject:
   - component: {fileID: 8618995384690605592}
   - component: {fileID: 8618995384690605595}
   - component: {fileID: 8618995384690605594}
-  m_Layer: 0
+  - component: {fileID: 1352529693}
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,3 +308,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1352529693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8618995384690605593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e28cef8b6dc8a41a064e39d96ff679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 8618995384690605594}

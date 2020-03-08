@@ -285,6 +285,7 @@ MonoBehaviour:
   gunArm: {fileID: 1934542935563358204}
   anim: {fileID: 1934542934768021982}
   dLight: {fileID: 1934542935903102472}
+  activeMoveSpeed: 0
   dashSpeed: 8
   dashLength: 0.5
   dashCD: 0.8
