@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public static EnemyController instance;
+
     public Rigidbody2D theRB;
     public float moveSpeed;
 
     public float rangeToChasePlayer;
-    private Vector3 moveDirection;
+    public Vector3 moveDirection;
 
     public Animator anim;
 
@@ -17,9 +19,16 @@ public class EnemyController : MonoBehaviour
     public GameObject[] deathSplatters;
     public GameObject hitEffect;
 
-    
+    public SpriteRenderer theBody;
 
     public GameObject floatingText;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,26 +38,32 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < rangeToChasePlayer)
+        if (theBody.isVisible)
         {
-            moveDirection = PlayerMovement.instance.transform.position - transform.position;
+            if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < rangeToChasePlayer)
+            {
+                moveDirection = PlayerMovement.instance.transform.position - transform.position;
+            }
+            else
+            {
+                moveDirection = Vector3.zero;
+            }
+
+            moveDirection.Normalize();
+
+            theRB.velocity = moveDirection * moveSpeed;
+
+            if (moveDirection != Vector3.zero)
+            {
+                anim.SetBool("isWalking", true);
+            }
+            else
+            {
+                anim.SetBool("isWalking", false);
+            }
+
+
         }
-
-        moveDirection.Normalize();
-
-        theRB.velocity = moveDirection * moveSpeed;
-
-        if (moveDirection != Vector3.zero)
-        {
-            anim.SetBool("isWalking", true);
-        }
-        else
-        {
-            anim.SetBool("isWalking", false);
-        }
-
-        
-        
     }
 
     public void DamageEnemy(int damage)
