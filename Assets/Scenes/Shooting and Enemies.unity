@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!95 &68076135 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8618995384690605594, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-    type: 3}
-  m_PrefabInstance: {fileID: 118861660}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &118861660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134,49 +128,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1352529693, guid: 93c6c787cd0be7c498b0e5f5688678b7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320668285630587175, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: stopDistance
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320668285630587175, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320668285630587175, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: timeBwAttacks
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320668285630587175, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: attackSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320668285630587175, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 68076135}
-    - target: {fileID: 2136090768274898351, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8618995384469502016, guid: 93c6c787cd0be7c498b0e5f5688678b7,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Ranged
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618995384469502016, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: Enemy Minion
       objectReference: {fileID: 0}
     - target: {fileID: 8618995384469502018, guid: 93c6c787cd0be7c498b0e5f5688678b7,
         type: 3}
@@ -232,16 +187,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618995384469502021, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618995384469502021, guid: 93c6c787cd0be7c498b0e5f5688678b7,
-        type: 3}
-      propertyPath: stopDistance
-      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93c6c787cd0be7c498b0e5f5688678b7, type: 3}
