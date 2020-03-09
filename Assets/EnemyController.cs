@@ -44,6 +44,7 @@ public class EnemyController : MonoBehaviour
             if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < rangeToChasePlayer)
             {
                 moveDirection = PlayerMovement.instance.transform.position - transform.position;
+                anim.ResetTrigger("isAttacking");
                 if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
                 {
                     moveDirection = Vector3.zero;

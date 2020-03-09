@@ -45,7 +45,7 @@ public class EnemyMeleeAttack : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
             {
-            
+            //anim.ResetTrigger("isAttacking");
             anim.SetTrigger("isMelee");
             Vector2 originalPosition = transform.position;
             Vector2 targetPosition = player.position;

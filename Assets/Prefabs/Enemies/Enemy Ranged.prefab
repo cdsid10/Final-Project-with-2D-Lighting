@@ -150,7 +150,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8618995384469502016}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d64be725bb33e4840ba53b1c277fded9, type: 3}
   m_Name: 
@@ -161,6 +161,7 @@ MonoBehaviour:
   firePoint: {fileID: 693865554406085407}
   fireRate: 2
   shootRange: 10
+  stopDistance: 1.5
 --- !u!114 &1320668285630587175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,10 +339,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8618995384690605593}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8e28cef8b6dc8a41a064e39d96ff679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8618995384690605594}
   shootRange: 10
+  stopDistance: 1.5

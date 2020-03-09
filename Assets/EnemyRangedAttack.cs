@@ -15,6 +15,7 @@ public class EnemyRangedAttack : MonoBehaviour
     public float fireRate;
     private float fireCounter;
     public float shootRange;
+    public float stopDistance;
 
     private void Awake()
     {
@@ -25,13 +26,21 @@ public class EnemyRangedAttack : MonoBehaviour
     {
         if (GetComponent<EnemyController>().theBody.isVisible && Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < shootRange && EnemyController.instance.moveDirection == Vector3.zero)
         {
-            fireCounter -= Time.deltaTime;
-
-            if (fireCounter <= 0)
+            if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) > stopDistance)
             {
-                fireCounter = fireRate;
-                Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
+                fireCounter -= Time.deltaTime;
+
+                if (fireCounter <= 0)
+                {
+                    fireCounter = fireRate;
+                    Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
+                }
             }
+            else if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
+            {
+                anim.ResetTrigger("isAttacking");
+            }
+
         }
       
     }
