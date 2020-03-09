@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8618995384469502020}
   - component: {fileID: 8618995384469502021}
   - component: {fileID: 2136090768274898351}
+  - component: {fileID: 1320668285630587175}
   - component: {fileID: 8618995384469502023}
   m_Layer: 10
   m_Name: Enemy Ranged
@@ -80,7 +81,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05161643, y: -0.010859489}
+  m_Offset: {x: -0.023327589, y: -0.060364604}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -91,7 +92,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9262624, y: 1.3019209}
+  m_Size: {x: 0.7848191, y: 1.2029107}
   m_EdgeRadius: 0
 --- !u!50 &8618995384469502020
 Rigidbody2D:
@@ -128,7 +129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theRB: {fileID: 8618995384469502020}
   moveSpeed: 2.5
-  rangeToChasePlayer: 7
+  rangeToChasePlayer: 5
+  moveDirection: {x: 0, y: 0, z: 0}
   anim: {fileID: 8618995384690605594}
   health: 150
   deathSplatters:
@@ -137,6 +139,7 @@ MonoBehaviour:
   - {fileID: 3008190686402010886, guid: f3cc46ba7f0ff5d458e3a927877179bb, type: 3}
   hitEffect: {fileID: 6937551874430024450, guid: fc5ef2ac830d77346b70df2abecb4fd2,
     type: 3}
+  theBody: {fileID: 8618995384690605595}
   floatingText: {fileID: 7310960550584268640, guid: dfb0afa06d17c7b4391be30a7018a2a7,
     type: 3}
 --- !u!114 &2136090768274898351
@@ -156,6 +159,24 @@ MonoBehaviour:
   bullet: {fileID: 7276667091037024088, guid: 3d2b0a587ed1574429fa404d85670674, type: 3}
   firePoint: {fileID: 693865554406085407}
   fireRate: 2
+  shootRange: 10
+--- !u!114 &1320668285630587175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8618995384469502016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25a9132bf058a34183a3de763f075fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRate: 0
+  attackCounter: 0
+  stopDistance: 0
+  player: {fileID: 0}
+  speed: 0
 --- !u!212 &8618995384469502023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -321,3 +342,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 8618995384690605594}
+  shootRange: 10

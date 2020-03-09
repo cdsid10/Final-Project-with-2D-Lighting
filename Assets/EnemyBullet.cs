@@ -25,10 +25,11 @@ public class EnemyBullet : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            Destroy(gameObject);
+            PlayerHealthController.instance.DamagePlayer();
+            
         }
+        Destroy(gameObject);
 
-        
     }
 
     private void OnBecameInvisible()

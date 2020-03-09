@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     public float moveSpeed;
 
     public float rangeToChasePlayer;
+    public float stopDistance;
     public Vector3 moveDirection;
 
     public Animator anim;
@@ -43,6 +44,10 @@ public class EnemyController : MonoBehaviour
             if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < rangeToChasePlayer)
             {
                 moveDirection = PlayerMovement.instance.transform.position - transform.position;
+                if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
+                {
+                    moveDirection = Vector3.zero;
+                }
             }
             else
             {
