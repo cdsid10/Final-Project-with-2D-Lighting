@@ -800,22 +800,22 @@ PrefabInstance:
     - target: {fileID: 8871526496204589334, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 4.462869
+      value: 4.4877377
       objectReference: {fileID: 0}
     - target: {fileID: 8871526496204589334, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -2.7930412
+      value: -2.9588287
       objectReference: {fileID: 0}
     - target: {fileID: 8871526496204589334, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
       propertyPath: m_Anchor.x
-      value: -0.061937306
+      value: -0.05198991
       objectReference: {fileID: 0}
     - target: {fileID: 8871526496204589334, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
       propertyPath: m_Anchor.y
-      value: -0.4865832
+      value: -0.53395104
       objectReference: {fileID: 0}
     - target: {fileID: 8871526496204589335, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
@@ -841,6 +841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Square
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871526496204589338, guid: 1526ec29c2baddf4dbe80222de659009,
+        type: 3}
+      propertyPath: m_Mass
+      value: 2.8386858
       objectReference: {fileID: 0}
     - target: {fileID: 8871526496204589339, guid: 1526ec29c2baddf4dbe80222de659009,
         type: 3}
