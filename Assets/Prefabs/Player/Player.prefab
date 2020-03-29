@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1934542934768021968}
   - component: {fileID: 1934542934768021969}
   - component: {fileID: 1934542934768021982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c3e8b7a686fef6949ae5161d8a58b9c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af7ea8d7b10c509468444bb50a34e5ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,7 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934542934943599409}
   - component: {fileID: 1934542934943599422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934542935055061184}
   - component: {fileID: 1934542935055061187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Backpack
   m_TagString: Backpack
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 1934542935142246237}
   - component: {fileID: 1934542935142246234}
   - component: {fileID: 1934542935142246239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 1934542935563358206}
   - component: {fileID: 1934542935563358207}
   - component: {fileID: 1934542935563358193}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934542935563358205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17, y: -0.345, z: -2.667818}
+  m_LocalPosition: {x: 0.124, y: -0.21, z: -2.667818}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1934542936060825750}
@@ -465,7 +465,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e03bd9d403d26114f9c9497478f1015d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd264d1c534a75348b11e143b5ccd8cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -507,7 +507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1934542935903102472}
   - component: {fileID: 1934542935903102475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flash Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934542936060825750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934542936060825751}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.774, y: 0.066, z: 0}
+  m_LocalPosition: {x: 0.86, y: 0.066, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1934542935563358204}
