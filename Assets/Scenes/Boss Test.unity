@@ -678,6 +678,22 @@ PrefabInstance:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[10].y
       value: 0.50504327
       objectReference: {fileID: 0}
+    - target: {fileID: 1934542935563358204, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934542935563358204, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934542935563358207, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f2d9ed51ef7820840a9e3c902b5255f0,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 1934542935142246234, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc, type: 3}
