@@ -5,14 +5,17 @@ using UnityEngine;
 public class ShootAnim : MonoBehaviour
 {
     public Animator anim;
+    public Animator textAnim;
     public GameObject[] bullets;
     public Transform firePoint;
+    public GameObject chargedText;
 
     public float timeBetweenShots;
     private float shotCounter;
 
     public float startTime;
     public float endTime;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,13 +30,12 @@ public class ShootAnim : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             startTime += Time.deltaTime;
+            
         }
 
-            if (startTime >= endTime)
-            {
 
 
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetMouseButtonUp(0) && startTime >= endTime)
                 {
 
                     anim.SetTrigger("shotaf");
@@ -43,18 +45,29 @@ public class ShootAnim : MonoBehaviour
                     shotCounter = timeBetweenShots;
 
                     startTime = 0;
-                }
 
+                    
             }
+                else if(Input.GetMouseButtonUp(0) && startTime < endTime)
+            {
+            startTime = 0;
+             }
+
+            
         
 
         if (Input.GetMouseButton(0))
         {
             anim.SetBool("isShooting", true);
+            textAnim.SetBool("charged", true);
+            chargedText.SetActive(true);
+            
         }
         else
         {
             anim.SetBool("isShooting", false);
+            textAnim.SetBool("charged", false);
+            chargedText.SetActive(false);
         }
     }
     
