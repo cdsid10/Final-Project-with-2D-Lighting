@@ -107,12 +107,14 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1f, 1f, 1f);
             gunArm.localScale = new Vector3(-1f, -1f, 1f);
             dLight.localRotation = Quaternion.Euler(0, -180, -90f);
+            ShootAnim.instance.chargedText.GetComponent<SpriteRenderer>().flipX = true;
         }
         else
         {
             transform.localScale = Vector3.one;
             gunArm.localScale = Vector3.one;
             dLight.localRotation = Quaternion.Euler(0, 0, -90f);
+            ShootAnim.instance.chargedText.GetComponent<SpriteRenderer>().flipX = false;
         }
 
         //Rotate Weapon with Mouse

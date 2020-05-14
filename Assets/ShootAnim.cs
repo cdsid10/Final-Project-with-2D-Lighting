@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShootAnim : MonoBehaviour
 {
+    public static ShootAnim instance;
+
     public Animator anim;
     public Animator textAnim;
     public GameObject[] bullets;
@@ -17,6 +19,10 @@ public class ShootAnim : MonoBehaviour
     public float endTime;
 
 
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
