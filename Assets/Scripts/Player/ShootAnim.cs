@@ -32,7 +32,7 @@ public class ShootAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!Dialog.instance.isTalking)
+        //if (!Dialog.instance.isTalking)
         {
             if (Input.GetMouseButton(0))
             {

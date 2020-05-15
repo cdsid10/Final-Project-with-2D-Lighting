@@ -15,6 +15,7 @@ public class Dialog : MonoBehaviour
     public GameObject textBorder;
     public GameObject interactText;
     public GameObject interactImage;
+    public GameObject Catcollider;
 
     public GameObject continueButton;
     public bool isTalking = false;
@@ -62,6 +63,7 @@ public class Dialog : MonoBehaviour
         isTalking = true;
         PlayerMovement.instance.theRB.Sleep();
         PlayerMovement.instance.anim.SetBool("isWalking", false);
+        Catcollider.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -72,6 +74,7 @@ public class Dialog : MonoBehaviour
         interactText.SetActive(false);
         PlayerMovement.instance.theRB.WakeUp();
         PlayerMovement.instance.anim.SetBool("isWalking", true);
+        //Catcollider.SetActive(false);
     }
     public void NextSentence()
     {
@@ -94,6 +97,7 @@ public class Dialog : MonoBehaviour
             isTalking = false;
             PlayerMovement.instance.theRB.WakeUp();
             PlayerMovement.instance.anim.SetBool("isWalking", true);
+            Catcollider.SetActive(false);
         }
     }
 }

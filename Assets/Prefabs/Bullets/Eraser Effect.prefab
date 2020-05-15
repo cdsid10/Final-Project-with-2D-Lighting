@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3256606003173891463}
   - component: {fileID: 1426915231845723099}
   - component: {fileID: 6719268851088223008}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eraser Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7422374595652649649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2637308, y: 2.3217041, z: -78.35359}
+  m_LocalPosition: {x: -2.2637308, y: 2.3217041, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4786,8 +4786,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -753265287
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0

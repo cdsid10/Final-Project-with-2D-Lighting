@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4438206495374651893}
   - component: {fileID: 246307625492580265}
   - component: {fileID: 5591720067172878162}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ruler Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8622131538113605315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2637308, y: 2.3217041, z: -78.35359}
+  m_LocalPosition: {x: -2.2637308, y: 2.3217041, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4786,8 +4786,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -753265287
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
