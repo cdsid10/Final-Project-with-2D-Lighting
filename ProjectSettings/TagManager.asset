@@ -20,9 +20,9 @@ TagManager:
   - Player Bullets
   - Enemies
   - Enemy Bullets
-  - 
-  - 
-  - 
+  - Wall Colliders
+  - Doors
+  - NPC
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Bullets
     uniqueID: 3541702009
+    locked: 0
+  - name: NPC
+    uniqueID: 47333461
     locked: 0

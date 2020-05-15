@@ -32,48 +32,50 @@ public class ShootAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetMouseButton(0))
+        if (!Dialog.instance.isTalking)
         {
-            startTime += Time.deltaTime;
-            
-        }
-
-
-
-                if (Input.GetMouseButtonUp(0) && startTime >= endTime)
-                {
-
-                    anim.SetTrigger("shotaf");
-
-                    Instantiate(bullets[Random.Range(0, bullets.Length)], firePoint.position, firePoint.rotation);
-
-                    shotCounter = timeBetweenShots;
-
-                    startTime = 0;
-
-                    
-            }
-                else if(Input.GetMouseButtonUp(0) && startTime < endTime)
+            if (Input.GetMouseButton(0))
             {
-            startTime = 0;
-             }
+                startTime += Time.deltaTime;
 
-            
-        
+            }
 
-        if (Input.GetMouseButton(0))
-        {
-            anim.SetBool("isShooting", true);
-            textAnim.SetBool("charged", true);
-            chargedText.SetActive(true);
-            
-        }
-        else
-        {
-            anim.SetBool("isShooting", false);
-            textAnim.SetBool("charged", false);
-            chargedText.SetActive(false);
+
+
+            if (Input.GetMouseButtonUp(0) && startTime >= endTime)
+            {
+
+                anim.SetTrigger("shotaf");
+
+                Instantiate(bullets[Random.Range(0, bullets.Length)], firePoint.position, firePoint.rotation);
+
+                shotCounter = timeBetweenShots;
+
+                startTime = 0;
+
+
+            }
+            else if (Input.GetMouseButtonUp(0) && startTime < endTime)
+            {
+                startTime = 0;
+            }
+
+
+
+
+            if (Input.GetMouseButton(0))
+            {
+                anim.SetBool("isShooting", true);
+                textAnim.SetBool("charged", true);
+                chargedText.SetActive(true);
+
+            }
+            else
+            {
+                anim.SetBool("isShooting", false);
+                textAnim.SetBool("charged", false);
+                chargedText.SetActive(false);
+            }
         }
     }
     

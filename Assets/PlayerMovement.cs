@@ -34,13 +34,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!Dialog.instance.isTalking)
+        {
+            Move();
 
-        Move();
+            MouseRotate();
 
-        MouseRotate();
-
-        Dash();
-
+            Dash();
+        }
     }
 
     
@@ -58,7 +59,9 @@ public class PlayerMovement : MonoBehaviour
 
         if(moveInput != Vector2.zero)
         {
-            anim.SetBool("isWalking", true);
+            
+                anim.SetBool("isWalking", true);
+            
         }
         else
         {
