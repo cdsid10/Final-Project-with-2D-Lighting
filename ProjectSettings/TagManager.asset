@@ -53,3 +53,6 @@ TagManager:
   - name: NPC
     uniqueID: 47333461
     locked: 0
+  - name: Tiles
+    uniqueID: 1788713257
+    locked: 0
