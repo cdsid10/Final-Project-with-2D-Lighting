@@ -58,6 +58,8 @@ public class ShootAnim : MonoBehaviour
             else if (Input.GetMouseButtonUp(0) && startTime < endTime)
             {
                 startTime = 0;
+                //anim.SetBool("isShooting", false);
+                anim.SetTrigger("idle");
             }
 
 
@@ -70,9 +72,10 @@ public class ShootAnim : MonoBehaviour
                 chargedText.SetActive(true);
 
             }
-            else
+            else if(startTime < endTime)
             {
                 anim.SetBool("isShooting", false);
+                anim.SetTrigger("idle");
                 textAnim.SetBool("charged", false);
                 chargedText.SetActive(false);
             }
