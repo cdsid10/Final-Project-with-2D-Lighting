@@ -13,8 +13,6 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject textBG;
     public GameObject textBorder;
-    public GameObject interactText;
-    public GameObject interactImage;
     public GameObject Catcollider;
 
     public GameObject continueButton;
@@ -37,8 +35,7 @@ public class Dialog : MonoBehaviour
             StartCoroutine(Type());
             textBG.SetActive(true);
             textBorder.SetActive(true);
-            interactImage.SetActive(false);
-            interactText.SetActive(false);
+            
 
         }
 
@@ -58,8 +55,7 @@ public class Dialog : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        interactImage.SetActive(true);
-        interactText.SetActive(true);
+     
         isTalking = true;
         PlayerMovement.instance.theRB.Sleep();
         PlayerMovement.instance.anim.SetBool("isWalking", false);
@@ -70,8 +66,7 @@ public class Dialog : MonoBehaviour
     {
         index = 0;
         isTalking = false;
-        interactImage.SetActive(false);
-        interactText.SetActive(false);
+       
         PlayerMovement.instance.theRB.WakeUp();
         PlayerMovement.instance.anim.SetBool("isWalking", true);
         //Catcollider.SetActive(false);
@@ -85,8 +80,7 @@ public class Dialog : MonoBehaviour
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
-            interactImage.SetActive(false);
-            interactText.SetActive(false);
+            
         }
         else
         {

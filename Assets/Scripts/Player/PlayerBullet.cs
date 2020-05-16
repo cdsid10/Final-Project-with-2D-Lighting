@@ -21,6 +21,8 @@ public class PlayerBullet : MonoBehaviour
 
     public int damageToGive = 150;
 
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +68,8 @@ public class PlayerBullet : MonoBehaviour
 
             Instantiate(BossController.instance.hitEffect, transform.position, transform.rotation);
         }
+
+        
     }
 
     private void OnBecameInvisible()
