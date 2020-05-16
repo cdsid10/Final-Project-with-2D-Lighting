@@ -13,10 +13,11 @@ public class Dialog : MonoBehaviour
     public float typingSpeed;
     public GameObject textBG;
     public GameObject textBorder;
-    public GameObject Catcollider;
+    public GameObject catCollider;
+    public GameObject textBox;
 
     public GameObject continueButton;
-    public bool isTalking = false;
+    public bool canTalk = false;
 
     private void Awake()
     {
@@ -25,24 +26,33 @@ public class Dialog : MonoBehaviour
 
     private void Start()
     {
-       
+        gameObject.GetComponent<BoxCollider2D>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isTalking)
+        if (Input.GetKeyDown(KeyCode.E) && canTalk)
         {
+            PlayerMovement.instance.canMove = false;
+            ShootAnim.instance.canShoot = false;
             StartCoroutine(Type());
+            textBox.SetActive(true);
             textBG.SetActive(true);
             textBorder.SetActive(true);
-            
-
+            catCollider.SetActive(true);
+            canTalk = false;
         }
-
-            if (textDisplay.text == sentences[index])
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            typingSpeed = 0.02f;
+        }
+        
+        if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
         }
+
+        
     }
     IEnumerator Type()
     {
@@ -55,21 +65,19 @@ public class Dialog : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-     
-        isTalking = true;
-        PlayerMovement.instance.theRB.Sleep();
-        PlayerMovement.instance.anim.SetBool("isWalking", false);
-        Catcollider.SetActive(true);
+        canTalk = true;
     }
+
+    
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         index = 0;
-        isTalking = false;
-       
-        PlayerMovement.instance.theRB.WakeUp();
-        PlayerMovement.instance.anim.SetBool("isWalking", true);
-        //Catcollider.SetActive(false);
+        catCollider.SetActive(false);
+        canTalk = false;
+        
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        
     }
     public void NextSentence()
     {
@@ -86,12 +94,13 @@ public class Dialog : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
+            catCollider.SetActive(false);
             textBG.SetActive(false);
             textBorder.SetActive(false);
-            isTalking = false;
-            PlayerMovement.instance.theRB.WakeUp();
-            PlayerMovement.instance.anim.SetBool("isWalking", true);
-            Catcollider.SetActive(false);
+            textBox.SetActive(false);
+            PlayerMovement.instance.canMove = true;
+            ShootAnim.instance.canShoot = true;
+
         }
     }
 }

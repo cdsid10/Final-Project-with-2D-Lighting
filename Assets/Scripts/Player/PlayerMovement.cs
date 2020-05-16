@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public float dashCounter;
     private float dashCoolCounter;
+    public bool canMove = true;
 
     private void Awake()
     {
@@ -29,12 +30,13 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         activeMoveSpeed = moveSpeed;
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (!Dialog.instance.isTalking)
+        if (canMove)
         {
             Move();
 

@@ -17,6 +17,7 @@ public class ShootAnim : MonoBehaviour
 
     public float startTime;
     public float endTime;
+    public bool canShoot = true;
 
 
     private void Awake()
@@ -26,13 +27,13 @@ public class ShootAnim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        canShoot = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (!Dialog.instance.isTalking)
+        if (canShoot)
         {
             if (Input.GetMouseButton(0))
             {
