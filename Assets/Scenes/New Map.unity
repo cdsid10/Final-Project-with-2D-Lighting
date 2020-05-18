@@ -218,9 +218,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235a63fc7b561f64b88fba610aae7b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targets: 1
   anim: {fileID: 5452704}
   sLight: {fileID: 33705660}
   sIsTriggered: 0
+  dIsTriggered: 0
 --- !u!61 &5452703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1890,9 +1892,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235a63fc7b561f64b88fba610aae7b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targets: 0
   anim: {fileID: 934550356}
   sLight: {fileID: 726989640}
   sIsTriggered: 0
+  dIsTriggered: 0
 --- !u!61 &934550358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2043,6 +2047,24 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 1152073405}
+    - target: {fileID: 3069305133493969474, guid: 5d388467bde3c68479044a20f7a824eb,
+        type: 3}
+      propertyPath: sentences.Array.data[8]
+      value: 'Wolfe : Alright! No time to waste, you can read, right? Yeah great!
+        Read the controls and shoot these red switches as part of your training and
+        a path will open up.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3069305133493969474, guid: 5d388467bde3c68479044a20f7a824eb,
+        type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: 'Wolfe : *Worried* they will be here soon. You have a lot of questions,
+        but there is no time!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3069305133493969474, guid: 5d388467bde3c68479044a20f7a824eb,
+        type: 3}
+      propertyPath: sentences.Array.data[9]
+      value: 'Wolfe : Now! Come on! Hurry Up! Chop! Chop!'
+      objectReference: {fileID: 0}
     - target: {fileID: 3069305133493969475, guid: 5d388467bde3c68479044a20f7a824eb,
         type: 3}
       propertyPath: m_Offset.x

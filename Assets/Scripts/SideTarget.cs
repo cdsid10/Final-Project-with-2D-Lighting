@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class SideTarget : MonoBehaviour
 {
+    public enum TargetType
+    {
+        side,
+        down
+    }
+    public TargetType targets;
+
     public static SideTarget instance;
 
     public Animator anim;
     public GameObject sLight;
     public bool sIsTriggered;
+    public bool dIsTriggered;
 
     private void Awake()
     {
@@ -34,7 +42,14 @@ public class SideTarget : MonoBehaviour
             anim.SetTrigger("pressed");
             yield return new WaitForSeconds(1);
             sLight.SetActive(true);
-            sIsTriggered = true;
+            if(targets == TargetType.side)
+            {
+                sIsTriggered = true;
+            }
+            if(targets == TargetType.down)
+            {
+                dIsTriggered = true;
+            }
         }
     }
 }
