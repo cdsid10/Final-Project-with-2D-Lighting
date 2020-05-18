@@ -7,13 +7,17 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
+    public bool isMoving;
 
     private float timeBtwShots;
     public float startTimeBtwShots;
+    public bool isShooting;
 
     public GameObject projectile;
 
     public Transform player;
+
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -41,12 +45,32 @@ public class Enemy : MonoBehaviour
 
         if(timeBtwShots <= 0)
         {
-            Instantiate(projectile, transform.position, Quaternion.identity);
-            timeBtwShots = startTimeBtwShots;
+            isShooting = true;
+            if (isShooting && !isMoving)
+            {
+                anim.SetBool("isShooting", true);
+
+                Instantiate(projectile, transform.position, Quaternion.identity);
+                timeBtwShots = startTimeBtwShots;
+            }
         }
         else
         {
             timeBtwShots -= Time.deltaTime;
+            isShooting = false;
+        }
+
+        if(speed > 0)
+        {
+            isMoving = true;
+            if(isMoving)
+            {
+                anim.SetBool("isMoving", true);
+            }
+        }
+        else if(speed <= 0)
+        {
+            isMoving = false;
         }
 
     }
