@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     public bool isShooting;
 
     public GameObject projectile;
+    public Transform firePoint;
 
     public Transform player;
 
@@ -37,20 +38,30 @@ public class Enemy : MonoBehaviour
         else if(Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > retreatDistance)
         {
             transform.position = this.transform.position;
+            isShooting = true;
         }
         else if(Vector2.Distance(transform.position, player.position) < retreatDistance)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
         }
 
-        if(timeBtwShots <= 0)
+        
+
+     
+        
+
+    }
+
+    void ThrowShoot()
+    {
+        if (timeBtwShots <= 0)
         {
             isShooting = true;
-            if (isShooting && !isMoving)
+            if (isShooting)
             {
                 anim.SetBool("isShooting", true);
 
-                Instantiate(projectile, transform.position, Quaternion.identity);
+                Instantiate(projectile, firePoint.transform.position, Quaternion.identity);
                 timeBtwShots = startTimeBtwShots;
             }
         }
@@ -59,19 +70,5 @@ public class Enemy : MonoBehaviour
             timeBtwShots -= Time.deltaTime;
             isShooting = false;
         }
-
-        if(speed > 0)
-        {
-            isMoving = true;
-            if(isMoving)
-            {
-                anim.SetBool("isMoving", true);
-            }
-        }
-        else if(speed <= 0)
-        {
-            isMoving = false;
-        }
-
     }
 }
