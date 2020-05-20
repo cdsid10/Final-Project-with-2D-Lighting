@@ -32,14 +32,16 @@ public class EnemyRangedAttack : MonoBehaviour
 
                 if (fireCounter <= 0)
                 {
+                    anim.SetTrigger("isAttacking");
                     fireCounter = fireRate;
                     Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
                 }
             }
-            else if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
+           /* else if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) <= stopDistance)
             {
                 anim.ResetTrigger("isAttacking");
             }
+            */
 
         }
       
@@ -48,7 +50,7 @@ public class EnemyRangedAttack : MonoBehaviour
 
     private void Update()
     {
-      
-        
+
+        Throwbarbell();
     }
 }

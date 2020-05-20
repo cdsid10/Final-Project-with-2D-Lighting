@@ -24,6 +24,9 @@ public class EnemyController : MonoBehaviour
 
     public GameObject floatingText;
 
+    private bool faceRight;
+
+    
 
     private void Awake()
     {
@@ -69,6 +72,25 @@ public class EnemyController : MonoBehaviour
             }
 
 
+            if(theRB.velocity.x > 0)
+            {
+                faceRight = true;
+            }
+            else if(theRB.velocity.x < 0)
+            {
+                faceRight = false;
+            }
+
+            if(faceRight)
+            {
+                theBody.flipX = false;
+                anim.SetBool("Mirror", false);
+            }
+            else if( !faceRight)
+            {
+                theBody.flipX = true;
+                anim.SetBool("Mirror", true);
+            }
         }
     }
 

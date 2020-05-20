@@ -28,7 +28,7 @@ public class EnemyAnimHelper : MonoBehaviour
                 transform.parent.gameObject.GetComponent<EnemyRangedAttack>().Throwbarbell();
                 anim.SetTrigger("isAttacking");
             }
-            else if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) > stopDistance)
+            else if(Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < stopDistance)
             {
                 anim.ResetTrigger("isAttacking");
             }
