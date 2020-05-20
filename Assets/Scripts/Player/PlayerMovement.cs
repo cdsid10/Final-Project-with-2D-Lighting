@@ -114,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
             dLight.localRotation = Quaternion.Euler(0, -180, -90f);
             ShootAnim.instance.chargedText.GetComponent<SpriteRenderer>().flipX = true;
             
+            
         }
         else
         {
