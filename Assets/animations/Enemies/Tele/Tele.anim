@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Test
+  m_Name: Tele
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -37,14 +37,6 @@ AnimationClip:
       value: {fileID: 21300000, guid: d94c491889d2bab4ab2f10b7e0bc79db, type: 3}
     - time: 0.8
       value: {fileID: 21300000, guid: 35ecb2dac6d7c5d4db21c46d9fd884fa, type: 3}
-    - time: 1.3
-      value: {fileID: 21300000, guid: 1c155a968c9e3804d98a5e3de1fd6443, type: 3}
-    - time: 1.4
-      value: {fileID: 21300000, guid: 13460660d3e9db24a8702f5b7f5c824d, type: 3}
-    - time: 1.5
-      value: {fileID: 21300000, guid: f0ae83d3e5d416b48bd2464e6571db4f, type: 3}
-    - time: 1.6
-      value: {fileID: 21300000, guid: 1f268153fcb86e143b6ff2e4803da7a9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -73,16 +65,12 @@ AnimationClip:
     - {fileID: 21300000, guid: f85e6332b825fc34c9935c1b743bf18e, type: 3}
     - {fileID: 21300000, guid: d94c491889d2bab4ab2f10b7e0bc79db, type: 3}
     - {fileID: 21300000, guid: 35ecb2dac6d7c5d4db21c46d9fd884fa, type: 3}
-    - {fileID: 21300000, guid: 1c155a968c9e3804d98a5e3de1fd6443, type: 3}
-    - {fileID: 21300000, guid: 13460660d3e9db24a8702f5b7f5c824d, type: 3}
-    - {fileID: 21300000, guid: f0ae83d3e5d416b48bd2464e6571db4f, type: 3}
-    - {fileID: 21300000, guid: 1f268153fcb86e143b6ff2e4803da7a9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.7
+    m_StopTime: 0.90000004
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -101,11 +89,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.8
-    functionName: Tele
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
