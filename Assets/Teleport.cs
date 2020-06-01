@@ -10,6 +10,7 @@ public class Teleport : MonoBehaviour
     public Animator anim;
 
     public GameObject explosion;
+    private GameObject inst;
 
     private bool canTele;
     
@@ -41,14 +42,19 @@ public class Teleport : MonoBehaviour
             yield return new WaitForSeconds(1);
             transform.position = gameObject.transform.position;
             anim.SetTrigger("endTele");
-            
+            yield return new WaitForSeconds(0.3f);
+            transform.position = gameObject.transform.position;
             anim.SetTrigger("charging");
-
             yield return new WaitForSeconds(2);
+            transform.position = gameObject.transform.position;
 
 
             anim.SetTrigger("dead");
-            Instantiate(explosion, transform.position, Quaternion.identity);
+            
+            inst = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(inst, 1);
+            Destroy(gameObject);
+            
             
 
 
