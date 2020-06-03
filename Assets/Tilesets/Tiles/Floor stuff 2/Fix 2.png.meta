@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: cd46c6847fd293c49b27d3cb58b8e526
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6574701980783307758
+    second: Fix 2_0
+  - first:
+      213: -4953326709450065325
+    second: Fix 2_1
+  - first:
+      213: 8195994093700476340
+    second: Fix 2_2
+  - first:
+      213: -2977788507758783400
+    second: Fix 2_3
+  - first:
+      213: 8436538351183761799
+    second: Fix 2_4
+  - first:
+      213: -1421542939827821849
+    second: Fix 2_5
+  - first:
+      213: 4846407216113124173
+    second: Fix 2_6
+  - first:
+      213: 1309779444037445449
+    second: Fix 2_7
+  - first:
+      213: 7572543979616757630
+    second: Fix 2_8
+  - first:
+      213: 8823052733688747774
+    second: Fix 2_9
+  - first:
+      213: 1027568480253223055
+    second: Fix 2_10
+  - first:
+      213: 2639072210878673657
+    second: Fix 2_11
+  - first:
+      213: 1069310163016297329
+    second: Fix 2_12
+  - first:
+      213: -6011159433712425085
+    second: Fix 2_13
+  - first:
+      213: 1702763223194053412
+    second: Fix 2_14
+  - first:
+      213: 7146259757335219365
+    second: Fix 2_15
+  - first:
+      213: 5882349223585402888
+    second: Fix 2_16
+  - first:
+      213: 2247462370529772792
+    second: Fix 2_17
+  - first:
+      213: -7722564210762621864
+    second: Fix 2_18
+  - first:
+      213: -6941304801009173842
+    second: Fix 2_19
+  - first:
+      213: -3148909120264792818
+    second: Fix 2_20
+  - first:
+      213: 8238356421453518398
+    second: Fix 2_21
+  - first:
+      213: -9045212114797095533
+    second: Fix 2_22
+  - first:
+      213: 5435473336845307734
+    second: Fix 2_23
+  - first:
+      213: -1312469215249598353
+    second: Fix 2_24
+  - first:
+      213: -3183924200215798072
+    second: Fix 2_25
+  - first:
+      213: -5861224985280121156
+    second: Fix 2_26
+  - first:
+      213: 6559286506601286587
+    second: Fix 2_27
+  - first:
+      213: -1786913819100626647
+    second: Fix 2_28
+  - first:
+      213: 1670290321794192471
+    second: Fix 2_29
+  - first:
+      213: -7990185832360674584
+    second: Fix 2_30
+  - first:
+      213: -929414642176778677
+    second: Fix 2_31
+  - first:
+      213: 4416240168594510276
+    second: Fix 2_32
+  - first:
+      213: -8978358189844880216
+    second: Fix 2_33
+  - first:
+      213: -2191525882517493874
+    second: Fix 2_34
+  - first:
+      213: 7844761246297277008
+    second: Fix 2_35
+  - first:
+      213: -5607600788442199748
+    second: Fix 2_36
+  - first:
+      213: -6371246302185278113
+    second: Fix 2_37
+  - first:
+      213: 6164693060055240664
+    second: Fix 2_38
+  - first:
+      213: -8201653563906869545
+    second: Fix 2_39
+  - first:
+      213: -6882727222558977123
+    second: Fix 2_40
+  - first:
+      213: -2157194820155173309
+    second: Fix 2_41
+  - first:
+      213: -7854945610970135673
+    second: Fix 2_42
+  - first:
+      213: 1337094838200155558
+    second: Fix 2_43
+  - first:
+      213: -6756299940334893644
+    second: Fix 2_44
+  - first:
+      213: 8248055555800214200
+    second: Fix 2_45
+  - first:
+      213: -2638946854290410277
+    second: Fix 2_46
+  - first:
+      213: -4328013408512324906
+    second: Fix 2_47
+  - first:
+      213: -5863810162326614467
+    second: Fix 2_48
+  - first:
+      213: -997482165014994713
+    second: Fix 2_49
+  - first:
+      213: 8824870123454637715
+    second: Fix 2_50
+  - first:
+      213: -15727311505392639
+    second: Fix 2_51
+  - first:
+      213: 3207348117493712227
+    second: Fix 2_52
+  - first:
+      213: -1627332285697114917
+    second: Fix 2_53
+  - first:
+      213: 2231422854937012366
+    second: Fix 2_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fix 2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb65a40e980e3b50800000000000000
+      internalID: 6574701980783307758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 133
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a36c20a9f324bb0800000000000000
+      internalID: -4953326709450065325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 150
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd673834350eb170800000000000000
+      internalID: 8195994093700476340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 150
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8541cc21125cca6d0800000000000000
+      internalID: -2977788507758783400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78194448eea941570800000000000000
+      internalID: 8436538351183761799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e229965a3aa54ce0800000000000000
+      internalID: -1421542939827821849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 134
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4300598fa5e14340800000000000000
+      internalID: 4846407216113124173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e5fff6754d2210800000000000000
+      internalID: 1309779444037445449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77641fd0a4171960800000000000000
+      internalID: 7572543979616757630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_9
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69e0af6b7c17a70800000000000000
+      internalID: 8823052733688747774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80a1e7a618a24e00800000000000000
+      internalID: 1027568480253223055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f23702813edf9420800000000000000
+      internalID: 2639072210878673657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b2d458de3f6de00800000000000000
+      internalID: 1069310163016297329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3872551f752149ca0800000000000000
+      internalID: -6011159433712425085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba41f312e61a710800000000000000
+      internalID: 1702763223194053412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac82a4036d9c2360800000000000000
+      internalID: 7146259757335219365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8005a9ce37d42a150800000000000000
+      internalID: 5882349223585402888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40c715e17903f10800000000000000
+      internalID: 2247462370529772792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_18
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c595624c0f3d490800000000000000
+      internalID: -7722564210762621864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa72226f088baf90800000000000000
+      internalID: -6941304801009173842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0511a8b6d3dc44d0800000000000000
+      internalID: -3148909120264792818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e369bc14485845270800000000000000
+      internalID: 8238356421453518398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39595735183f87280800000000000000
+      internalID: -9045212114797095533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f85c4933eae6b40800000000000000
+      internalID: 5435473336845307734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_24
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f687966d33c29cde0800000000000000
+      internalID: -1312469215249598353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_25
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce1e5e1fcd60d3d0800000000000000
+      internalID: -3183924200215798072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6fbb31eeeb8aea0800000000000000
+      internalID: -5861224985280121156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb8bfd3354470b50800000000000000
+      internalID: 6559286506601286587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9214548595b9337e0800000000000000
+      internalID: -1786913819100626647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_29
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d056b2301e2710800000000000000
+      internalID: 1670290321794192471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea78ccb1582d1190800000000000000
+      internalID: -7990185832360674584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e9104ae4e0a13f0800000000000000
+      internalID: -929414642176778677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c113ebf803a94d30800000000000000
+      internalID: 4416240168594510276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a314bbc6766380800000000000000
+      internalID: -8978358189844880216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_34
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87687032d22691e0800000000000000
+      internalID: -2191525882517493874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052cc494ac03edc60800000000000000
+      internalID: 7844761246297277008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39c3b21bcccd22b0800000000000000
+      internalID: -5607600788442199748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b9b59e39c497a0800000000000000
+      internalID: -6371246302185278113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df88e91da36d8550800000000000000
+      internalID: 6164693060055240664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6b380b98fdd2e80800000000000000
+      internalID: -8201653563906869545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 57
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93167dae04ab70a0800000000000000
+      internalID: -6882727222558977123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 57
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34696598dba1012e0800000000000000
+      internalID: -2157194820155173309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_42
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 54
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838c188590adf290800000000000000
+      internalID: -7854945610970135673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_43
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 54
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adbdedcba05e8210800000000000000
+      internalID: 1337094838200155558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_44
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 54
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5885c200dcc32a0800000000000000
+      internalID: -6756299940334893644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baa823f3daf67270800000000000000
+      internalID: 8248055555800214200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_46
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b2e851d3906bd0800000000000000
+      internalID: -2638946854290410277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dace7a5cbecfe3c0800000000000000
+      internalID: -4328013408512324906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e4234a9bf8f9ea0800000000000000
+      internalID: -5863810162326614467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_49
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06e7c714b3822f0800000000000000
+      internalID: -997482165014994713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_50
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396a8710f9c387a70800000000000000
+      internalID: 8824870123454637715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf270f71028cff0800000000000000
+      internalID: -15727311505392639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3650b3e9e1ac28c20800000000000000
+      internalID: 3207348117493712227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_53
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcbf7b78ed8a69e0800000000000000
+      internalID: -1627332285697114917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fix 2_54
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e886534934b97fe10800000000000000
+      internalID: 2231422854937012366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
