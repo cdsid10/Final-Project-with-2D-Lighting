@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 218050978}
   m_Layer: 0
   m_Name: Tele Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,6 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8374fc2e41a7d054aa9821fe20331051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theSR: {fileID: 218050976}
   player: {fileID: 610783067}
   anim: {fileID: 218050975}
   explosion: {fileID: 5022012101195019449, guid: ebd6934d18999cb4cac28ff0d8d4d0e6,

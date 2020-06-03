@@ -6,7 +6,7 @@ public class Teleport : MonoBehaviour
 {
     public static Teleport instance;
 
-    
+    public SpriteRenderer theSR;
     public Transform player;
     public Animator anim;
 
@@ -47,6 +47,14 @@ public class Teleport : MonoBehaviour
             if (!hasTele)
             {
                 transform.position = new Vector3(Random.Range(player.position.x - 2, player.position.x + 2), player.position.y, player.position.z);
+                if(transform.position.x > player.transform.position.x)
+                {
+                    gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                }
+                else if(transform.position.x < player.transform.position.x)
+                {
+                    gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                } 
                 newPos = transform.position;
                 hasTele = true;
                 yield return new WaitForSeconds(1);
