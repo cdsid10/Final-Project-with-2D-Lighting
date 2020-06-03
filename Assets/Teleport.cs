@@ -6,6 +6,7 @@ public class Teleport : MonoBehaviour
 {
     public static Teleport instance;
 
+    
     public Transform player;
     public Animator anim;
 
@@ -13,7 +14,12 @@ public class Teleport : MonoBehaviour
     private GameObject inst;
 
     private bool canTele;
-    
+    bool hasTele;
+
+    private Vector3 newPos;
+
+    //public Vector3 teleLocation = new Vector3(player.position.x + 2, player.position.y, player.position.z);
+
     private void Awake()
     {
         instance = this;
@@ -37,21 +43,27 @@ public class Teleport : MonoBehaviour
         {
             anim.SetTrigger("startTele");
             yield return new WaitForSeconds(2);
+
+            if (!hasTele)
+            {
+                transform.position = new Vector3(Random.Range(player.position.x - 2, player.position.x + 2), player.position.y, player.position.z);
+                newPos = transform.position;
+                hasTele = true;
+                yield return new WaitForSeconds(1);
+            }
             
-            transform.position = new Vector3(player.position.x + 2, player.position.y, player.position.z);
-            yield return new WaitForSeconds(1);
-            transform.position = gameObject.transform.position;
             anim.SetTrigger("endTele");
             yield return new WaitForSeconds(0.3f);
-            transform.position = gameObject.transform.position;
+            
             anim.SetTrigger("charging");
             yield return new WaitForSeconds(2);
-            transform.position = gameObject.transform.position;
+            
 
 
             anim.SetTrigger("dead");
             
             inst = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+            gameObject.SetActive(false);
             Destroy(inst, 1);
             Destroy(gameObject);
             
@@ -74,5 +86,10 @@ public class Teleport : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        canTele = false;
     }
 }
