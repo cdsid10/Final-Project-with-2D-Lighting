@@ -63,3 +63,9 @@ TagManager:
   - name: Enemy
     uniqueID: 4086963071
     locked: 0
+  - name: Collectables
+    uniqueID: 769603361
+    locked: 0
+  - name: Doors
+    uniqueID: 1443918501
+    locked: 0
