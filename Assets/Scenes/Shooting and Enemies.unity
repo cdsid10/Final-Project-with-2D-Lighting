@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Minion
       objectReference: {fileID: 0}
+    - target: {fileID: 8618995384469502016, guid: 93c6c787cd0be7c498b0e5f5688678b7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8618995384469502018, guid: 93c6c787cd0be7c498b0e5f5688678b7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -225,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 1934542935142246235, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.22
+      value: 5.94
       objectReference: {fileID: 0}
     - target: {fileID: 1934542935142246235, guid: 2ceae2a399d8cc04e9f1cfad8a4093bc,
         type: 3}
@@ -713,7 +718,7 @@ PrefabInstance:
     - target: {fileID: 8980631105039359117, guid: 22d83a66e45572b439052e9259798ba8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.72
+      value: -4.31
       objectReference: {fileID: 0}
     - target: {fileID: 8980631105039359117, guid: 22d83a66e45572b439052e9259798ba8,
         type: 3}
@@ -769,6 +774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tele Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980631105039359153, guid: 22d83a66e45572b439052e9259798ba8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8980631105039359154, guid: 22d83a66e45572b439052e9259798ba8,
         type: 3}
