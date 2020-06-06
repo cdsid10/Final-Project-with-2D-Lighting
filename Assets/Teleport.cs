@@ -64,7 +64,7 @@ public class Teleport : MonoBehaviour
             yield return new WaitForSeconds(0.3f);
             
             anim.SetTrigger("charging");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
             
 
 
