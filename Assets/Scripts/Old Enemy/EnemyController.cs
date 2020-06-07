@@ -42,7 +42,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (theBody.isVisible)
+        if (theBody.isVisible && PlayerMovement.instance.gameObject.activeInHierarchy)
         {
             if (Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < rangeToChasePlayer)
             {

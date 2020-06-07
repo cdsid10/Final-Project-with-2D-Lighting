@@ -26,7 +26,10 @@ public class EnemyMeleeAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MeleeAttack();
+        if (PlayerMovement.instance.gameObject.activeInHierarchy)
+        {
+            MeleeAttack();
+        }
     }
 
     public void MeleeAttack()

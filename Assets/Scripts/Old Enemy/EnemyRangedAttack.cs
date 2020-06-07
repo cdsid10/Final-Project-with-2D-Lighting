@@ -50,7 +50,9 @@ public class EnemyRangedAttack : MonoBehaviour
 
     private void Update()
     {
-
-        Throwbarbell();
+        if (PlayerMovement.instance.gameObject.activeInHierarchy)
+        {
+            Throwbarbell();
+        }
     }
 }
