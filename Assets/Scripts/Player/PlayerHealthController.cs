@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealthController : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class PlayerHealthController : MonoBehaviour
 
     public int currentHealth;
     public int maxHealth;
+
+    public int numOfHearts;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     public float damageInvLength = 1f;
     private float invCount;
@@ -19,11 +25,11 @@ public class PlayerHealthController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = numOfHearts;
 
-        UIController.instance.healthSlider.maxValue = maxHealth;
-        UIController.instance.healthSlider.value = currentHealth;
-        UIController.instance.healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
+        //UIController.instance.healthSlider.maxValue = maxHealth;
+        //UIController.instance.healthSlider.value = currentHealth;
+        //UIController.instance.healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
     }
 
     // Update is called once per frame
@@ -37,6 +43,32 @@ public class PlayerHealthController : MonoBehaviour
             {
                 PlayerMovement.instance.body.color = new Color(PlayerMovement.instance.body.color.r, PlayerMovement.instance.body.color.g,
                 PlayerMovement.instance.body.color.b, 1f);
+            }
+        }
+
+        if(currentHealth > numOfHearts)
+        {
+            currentHealth = numOfHearts;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if(i < currentHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+
+            if(i < numOfHearts)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
             }
         }
     }
@@ -59,8 +91,8 @@ public class PlayerHealthController : MonoBehaviour
                 UIController.instance.deathScreen.SetActive(true);
             }
 
-            UIController.instance.healthSlider.value = currentHealth;
-            UIController.instance.healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
+            //UIController.instance.healthSlider.value = currentHealth;
+            //UIController.instance.healthText.text = currentHealth.ToString() + " / " + maxHealth.ToString();
         }
     }
 
