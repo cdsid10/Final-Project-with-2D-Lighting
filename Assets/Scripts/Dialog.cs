@@ -15,6 +15,7 @@ public class Dialog : MonoBehaviour
     public GameObject textBorder;
     public GameObject catCollider;
     public GameObject textBox;
+    public GameObject arrow;
 
     public GameObject continueButton;
     public bool canTalk = false;
@@ -66,6 +67,7 @@ public class Dialog : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         canTalk = true;
+        arrow.SetActive(true);
     }
 
     
@@ -77,6 +79,7 @@ public class Dialog : MonoBehaviour
         canTalk = false;
         
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        arrow.SetActive(false);
         
     }
     public void NextSentence()

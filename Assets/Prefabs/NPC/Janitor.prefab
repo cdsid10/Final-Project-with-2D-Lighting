@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1215578180}
-  - component: {fileID: 1215578181}
+  - component: {fileID: 8242270549702722724}
+  - component: {fileID: 1215578182}
+  - component: {fileID: 1215578183}
   m_Layer: 0
   m_Name: CatCollider
   m_TagString: Untagged
@@ -25,14 +27,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215578179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.95956826, y: -0.124397375, z: -90.62295}
+  m_LocalPosition: {x: -0.98, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3069305133493969473}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1215578181
-EdgeCollider2D:
+--- !u!61 &8242270549702722724
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -44,14 +46,71 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.9770714, y: -2.0429683}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9985573, y: 0.11175442}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: 2.5278165, y: 0.6203121}
-  - {x: -0.5157392, y: 0.6226326}
-  - {x: -0.5300245, y: -1.9049233}
-  - {x: 2.5428536, y: -1.9011616}
-  - {x: 2.5283248, y: 0.67982304}
+--- !u!61 &1215578182
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215578179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.4870915, y: -0.58846426}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.06734228, y: 3.0207624}
+  m_EdgeRadius: 0
+--- !u!61 &1215578183
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215578179}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.45522678, y: -0.5440516}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08954644, y: 2.9319372}
+  m_EdgeRadius: 0
 --- !u!1 &3069305133493969479
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,6 +143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1215578180}
+  - {fileID: 3033174795927318083}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -169,7 +229,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006066203, y: -0.3247528}
+  m_Offset: {x: -0.048707962, y: -0.24259162}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -180,7 +240,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7727644, y: 1.641469}
+  m_Size: {x: 1.2797966, y: 1.4771466}
   m_EdgeRadius: 0
 --- !u!114 &3069305133493969474
 MonoBehaviour:
@@ -202,18 +262,106 @@ MonoBehaviour:
   - '??? : A cat??!! You... I... *deep breath* I am Wolfe, the Gatekeeper and Guide
     of this forgotten realm, The Dire. '
   - 'You : The Dire? Irregular?? How...? Why am I here?'
-  - 'Wolfe : 10 acta!!!... they will be here soon. You have a lot of questions, but
-    there is no time!'
+  - 'Wolfe : *Worried* they will be here soon. You have a lot of questions, but there
+    is no time!'
   - 'Wolfe : Follow my advice... ehh... and you might survive the night!'
   - 'You : Huh? Survive? from who? Am I in danger? I was just playing on my Playstation!
     What?! No?!  '
   - 'Wolfe : Alright! No time to waste, you can read, right? Yeah great! Read the
-    controls and shoot these 3 red switches as part of your training.'
-  - 'Wolfe : Now! Come on! Hurry Up!'
+    controls and shoot these red switches as part of your training and a path will
+    open up.'
+  - 'Wolfe : Now! Come on! Hurry Up! Chop! Chop!'
   typingSpeed: 0.06
   textBG: {fileID: 0}
   textBorder: {fileID: 0}
-  catCollider: {fileID: 0}
+  catCollider: {fileID: 1215578179}
   textBox: {fileID: 0}
+  arrow: {fileID: 6876357552674268064}
   continueButton: {fileID: 0}
-  isTalking: 0
+  canTalk: 0
+--- !u!1001 &8232865159441811711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3069305133493969473}
+    m_Modifications:
+    - target: {fileID: 3255181126079179615, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_Name
+      value: Arrow over NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255181126079179615, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.771
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1e59627c6f2c65a4d8dcf27d25043cc2, type: 3}
+--- !u!1 &6876357552674268064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3255181126079179615, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8232865159441811711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3033174795927318083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6366123217187399356, guid: 1e59627c6f2c65a4d8dcf27d25043cc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8232865159441811711}
+  m_PrefabAsset: {fileID: 0}

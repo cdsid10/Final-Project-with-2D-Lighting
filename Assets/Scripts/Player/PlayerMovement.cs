@@ -15,12 +15,13 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private float activeMoveSpeed;
-    public float dashSpeed = 8f, dashLength = .5f, dashCD = 1f;
+    public float dashSpeed = 8f, dashLength = .5f, dashCD = 1f, dashInvincibility = 0.5f;
     [HideInInspector]
     public float dashCounter;
     private float dashCoolCounter;
     public bool canMove = true;
 
+    public SpriteRenderer body;
     private void Awake()
     {
         instance = this;
@@ -81,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
                 dashCounter = dashLength;
 
                 anim.SetTrigger("dash");
+
+                PlayerHealthController.instance.MakeInvincible(dashInvincibility);
             }
         }
 

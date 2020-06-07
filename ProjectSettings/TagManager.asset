@@ -51,20 +51,20 @@ TagManager:
   - name: Bullets
     uniqueID: 3541702009
     locked: 0
-  - name: NPC
-    uniqueID: 47333461
-    locked: 0
   - name: Fog
     uniqueID: 2331384155
     locked: 0
   - name: Enemy
     uniqueID: 4086963071
     locked: 0
+  - name: Assets
+    uniqueID: 1443918501
+    locked: 0
   - name: Collectables
     uniqueID: 769603361
     locked: 0
-  - name: Assets
-    uniqueID: 1443918501
+  - name: NPC
+    uniqueID: 47333461
     locked: 0
   - name: Player
     uniqueID: 3009795437
