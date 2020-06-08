@@ -46,7 +46,7 @@ public class Teleport : MonoBehaviour
 
             if (!hasTele)
             {
-                transform.position = new Vector3(Random.Range(player.position.x - 2, player.position.x + 2), player.position.y, player.position.z);
+                transform.position = new Vector3(Random.Range(player.position.x - 3, player.position.x + 3), player.position.y, player.position.z);
                 if(transform.position.x > player.transform.position.x)
                 {
                     gameObject.GetComponent<SpriteRenderer>().flipX = true;
@@ -57,14 +57,14 @@ public class Teleport : MonoBehaviour
                 } 
                 newPos = transform.position;
                 hasTele = true;
-                yield return new WaitForSeconds(1);
+                yield return new WaitForSeconds(0.5f);
             }
             
             anim.SetTrigger("endTele");
             yield return new WaitForSeconds(0.3f);
             
             anim.SetTrigger("charging");
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
             
 
 
