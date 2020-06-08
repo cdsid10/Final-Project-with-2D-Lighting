@@ -16,6 +16,7 @@ public class ButtonToRun : MonoBehaviour
     public bool reset;
 
     public GameObject key;
+    public GameObject arrow;
 
 
     private void Awake()
@@ -49,11 +50,12 @@ public class ButtonToRun : MonoBehaviour
         {
             countdown -= Time.deltaTime;
         }
-        if (countdown > 0 && ButtonToEndRun.instance.hasCompleted)
+        if (countdown > 0 && ButtonToEndRun.instance.hasCompleted && Obstacles.instance.failed == false)
         {
             key.SetActive(true);
             timerRunning = false;
         }
+        
         else if (countdown <= 0)
         {
             reset = true;
@@ -68,10 +70,12 @@ public class ButtonToRun : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         canStartDrill = true;
+        arrow.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         canStartDrill = false;
+        arrow.SetActive(false);
     }
 }

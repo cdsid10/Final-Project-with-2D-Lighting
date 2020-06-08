@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Obstacles : MonoBehaviour
 {
+    public static Obstacles instance;
+
+    public bool failed;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +29,14 @@ public class Obstacles : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         ButtonToRun.instance.reset = true;
+        ButtonToRun.instance.timerRunning = false;
+        failed = true;
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         ButtonToRun.instance.reset = false;
-        ButtonToRun.instance.timerRunning = false;
+        
     }
 }

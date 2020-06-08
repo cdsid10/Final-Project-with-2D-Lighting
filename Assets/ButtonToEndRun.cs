@@ -31,7 +31,7 @@ public class ButtonToEndRun : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(ButtonToRun.instance.countdown > 0)
+        if(ButtonToRun.instance.countdown > 0 && Obstacles.instance.failed == false)
         {
             hasCompleted = true;
         }
