@@ -54,6 +54,8 @@ public class ButtonToRun : MonoBehaviour
         {
             key.SetActive(true);
             timerRunning = false;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<ButtonToRun>().enabled = false;
         }
         
         else if (countdown <= 0)

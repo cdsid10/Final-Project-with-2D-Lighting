@@ -9,6 +9,7 @@ public class TriggerTele : MonoBehaviour
     public GameObject key;
     public GameObject janitor;
     public GameObject light1;
+    public GameObject fuse;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,8 @@ public class TriggerTele : MonoBehaviour
         janitor.SetActive(true);
 
         light1.SetActive(true);
+
+        fuse.SetActive(true);
 
         Destroy(gameObject);
     }
