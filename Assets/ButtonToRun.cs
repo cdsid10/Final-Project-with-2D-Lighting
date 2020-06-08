@@ -59,6 +59,8 @@ public class ButtonToRun : MonoBehaviour
         else if (countdown <= 0)
         {
             reset = true;
+            timerRunning = false;
+            drillStarted = false;
         }
 
         if (reset)
