@@ -48,9 +48,6 @@ TagManager:
   - name: Tiles
     uniqueID: 1788713257
     locked: 0
-  - name: Bullets
-    uniqueID: 3541702009
-    locked: 0
   - name: Fog
     uniqueID: 2331384155
     locked: 0
@@ -59,6 +56,9 @@ TagManager:
     locked: 0
   - name: Collectables
     uniqueID: 769603361
+    locked: 0
+  - name: Bullets
+    uniqueID: 3541702009
     locked: 0
   - name: Enemy
     uniqueID: 4086963071
