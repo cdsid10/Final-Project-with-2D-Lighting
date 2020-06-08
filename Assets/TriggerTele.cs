@@ -40,5 +40,7 @@ public class TriggerTele : MonoBehaviour
         janitor.SetActive(true);
 
         light1.SetActive(true);
+
+        Destroy(gameObject);
     }
 }
