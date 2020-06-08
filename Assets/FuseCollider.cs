@@ -58,10 +58,10 @@ public class FuseCollider : MonoBehaviour
             yield return new WaitForSeconds(3f);
             tileMap.SetActive(false);
 
-            gLight.SetActive(true);
-            g2Light.SetActive(false);
-            playerLight.SetActive(false);
-            flashLight.SetActive(false);
+           // gLight.SetActive(true);
+            //g2Light.SetActive(false);
+            //playerLight.SetActive(false);
+            //flashLight.SetActive(false);
             Destroy(GameObject.Find("Fuse Animation"));
             Destroy(gameObject);
         }
