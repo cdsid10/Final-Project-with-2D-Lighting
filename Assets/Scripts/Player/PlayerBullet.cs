@@ -62,7 +62,10 @@ public class PlayerBullet : MonoBehaviour
             other.GetComponent<EnemyController>().DamageEnemy(damageToGive);
         }
 
-        
+        if(other.tag == "Boss")
+        {
+            other.GetComponent<BossBehavior>().DamageEnemy(damageToGive);
+        }
 
         
     }

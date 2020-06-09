@@ -19,7 +19,10 @@ public class Boss_Idle : StateMachineBehaviour
     {
         if(timer <= 0)
         {
-            animator.SetTrigger("jump");
+            //if (BossBehavior.instance.canTele)
+            {
+                //animator.SetTrigger("jump");
+            }
         }
         else
         {

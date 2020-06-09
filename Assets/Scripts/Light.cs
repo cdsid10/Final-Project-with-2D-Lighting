@@ -8,6 +8,8 @@ public class Light : MonoBehaviour
     public GameObject globalLightLow;
     public GameObject playerLight;
     public GameObject flashLight;
+
+    public GameObject[] allLights;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,12 @@ public class Light : MonoBehaviour
         globalLightLow.SetActive(true);
         playerLight.SetActive(true);
         flashLight.SetActive(true);
+
+        foreach(GameObject obj in allLights)
+        {
+            obj.SetActive(true);
+        }
+
     }
 
     

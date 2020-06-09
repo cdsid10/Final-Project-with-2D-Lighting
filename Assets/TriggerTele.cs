@@ -40,7 +40,7 @@ public class TriggerTele : MonoBehaviour
 
         janitor.SetActive(true);
 
-        light1.SetActive(true);
+        //light1.SetActive(true);
 
         fuse.SetActive(true);
 
