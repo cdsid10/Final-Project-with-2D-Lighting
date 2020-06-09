@@ -62,12 +62,7 @@ public class PlayerBullet : MonoBehaviour
             other.GetComponent<EnemyController>().DamageEnemy(damageToGive);
         }
 
-        if(other.tag == "Boss")
-        {
-            BossController.instance.TakeDamage(damageToGive);
-
-            Instantiate(BossController.instance.hitEffect, transform.position, transform.rotation);
-        }
+        
 
         
     }
