@@ -40,6 +40,10 @@ public class FuseCollider : MonoBehaviour
                 canTrigger = true;
 
             }
+            else
+            {
+                return;
+            }
         }
     }
 

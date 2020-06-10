@@ -31,6 +31,10 @@ public class DoorClassA : MonoBehaviour
                 canTrigger = true;
 
             }
+            else
+            {
+                return;
+            }
         }
     }
 

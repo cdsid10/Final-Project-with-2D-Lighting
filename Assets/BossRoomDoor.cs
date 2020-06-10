@@ -6,6 +6,7 @@ public class BossRoomDoor : MonoBehaviour
 {
     public GameObject doorClosed;
     public GameObject doorOpen;
+    public GameObject janitor;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class BossRoomDoor : MonoBehaviour
         {
             doorClosed.SetActive(false);
             doorOpen.SetActive(true);
+            janitor.SetActive(true);
         }
     }
 
