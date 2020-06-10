@@ -56,8 +56,9 @@ public class Portal : MonoBehaviour
                 }
             }
         }
-        else
+        else if(BossBehavior.instance.dead)
         {
+            canShoot = false;
             anim.SetTrigger("end");
         }
 

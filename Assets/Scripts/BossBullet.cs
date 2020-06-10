@@ -20,7 +20,7 @@ public class BossBullet : MonoBehaviour
     {
         transform.position += direction * speed * Time.deltaTime;
 
-        if (!BossBehavior.instance.gameObject.activeInHierarchy)
+        if (BossBehavior.instance.dead)
         {
             Destroy(gameObject);
         }

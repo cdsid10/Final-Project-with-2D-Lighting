@@ -26,7 +26,7 @@ public class BossBehavior : MonoBehaviour
     private Vector3 moveDirection;
 
     public int health = 10;
-    bool dead;
+    public bool dead;
 
     private void Awake()
     {
@@ -109,7 +109,7 @@ public class BossBehavior : MonoBehaviour
         if (dead)
         {
             anim.SetTrigger("dead");
-            yield return new WaitForSeconds(4);
+            yield return new WaitForSeconds(3.5f);
             gameObject.SetActive(false);
         }
     }

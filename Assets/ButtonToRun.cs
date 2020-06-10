@@ -11,6 +11,7 @@ public class ButtonToRun : MonoBehaviour
     public bool isReset;
 
     public float countdown;
+    public float timeToAutoKey;
     private float timerStart;
     public bool timerRunning;
     public bool reset;
@@ -42,6 +43,7 @@ public class ButtonToRun : MonoBehaviour
             {
                 timerRunning = true;
                 drillStarted = true;
+                timeToAutoKey -= Time.deltaTime;
                 
             }
             
@@ -58,6 +60,12 @@ public class ButtonToRun : MonoBehaviour
             gameObject.GetComponent<ButtonToRun>().enabled = false;
         }
         
+        if(timeToAutoKey <= 0)
+        {
+            key.SetActive(true);
+        }
+
+
         else if (countdown <= 0)
         {
             reset = true;
