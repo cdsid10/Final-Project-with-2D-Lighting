@@ -56,6 +56,7 @@ public class PlayerBullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Instantiate(impactEffect, transform.position, transform.rotation);
+        AudioManager.instance.PlaySFX(10);
         Destroy(gameObject);
         if (other.tag == "Enemy")
         {

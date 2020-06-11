@@ -27,6 +27,7 @@ public class BossBehavior : MonoBehaviour
 
     public int health = 10;
     public bool dead;
+    public GameObject bossWalls;
 
     private void Awake()
     {
@@ -110,7 +111,9 @@ public class BossBehavior : MonoBehaviour
         {
             anim.SetTrigger("dead");
             yield return new WaitForSeconds(3.5f);
+            AudioManager.instance.PlaySFX(0);
             gameObject.SetActive(false);
+            bossWalls.SetActive(false);
         }
     }
 }

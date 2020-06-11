@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312569434943798017}
   - component: {fileID: 5312569434943798018}
+  - component: {fileID: 1427906298}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -45,3 +46,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   maxHealth: 5
+  numOfHearts: 5
+  hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 21300000, guid: ef395a2f587e4364ba78428a598642ed, type: 3}
+  emptyHeart: {fileID: 21300000, guid: e7a73e7bab840d04b89fefd7ff638228, type: 3}
+  damageInvLength: 1
+  impactEffect: {fileID: 0}
+--- !u!114 &1427906298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5312569434943798019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53aba0870acb28746b160bddbef22f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitToLoad: 4
+  nextLevel: 
+  isPaused: 0

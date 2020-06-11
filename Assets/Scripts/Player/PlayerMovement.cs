@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canMove)
+        if (canMove && !LevelManager.instance.isPaused)
         {
             Move();
 
@@ -83,9 +83,9 @@ public class PlayerMovement : MonoBehaviour
                 dashCounter = dashLength;
 
                 anim.SetTrigger("dash");
-
-                PlayerHealthController.instance.MakeInvincible(dashInvincibility);
                 AudioManager.instance.PlaySFX(2);
+                PlayerHealthController.instance.MakeInvincible(dashInvincibility);
+                
             }
         }
 
@@ -135,5 +135,10 @@ public class PlayerMovement : MonoBehaviour
         float angle = Mathf.Atan2(offset.y, offset.x) * Mathf.Rad2Deg;
         gunArm.rotation = Quaternion.Euler(0, 0, angle);
 
+    }
+
+    void PlayChargedSound()
+    {
+        AudioManager.instance.PlaySFX(11);
     }
 }

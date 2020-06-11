@@ -35,7 +35,7 @@ public class ShootAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canShoot)
+        if (canShoot && !LevelManager.instance.isPaused)
         {
             if (Input.GetMouseButton(0))
             {
@@ -52,6 +52,7 @@ public class ShootAnim : MonoBehaviour
                 anim.SetTrigger("shotaf");
 
                 Instantiate(bullets[Random.Range(0, bullets.Length)], firePoint.position, firePoint.rotation);
+                //AudioManager.instance.PlaySFX(11);
                 
 
                 shotCounter = timeBetweenShots;

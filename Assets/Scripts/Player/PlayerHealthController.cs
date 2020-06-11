@@ -18,6 +18,8 @@ public class PlayerHealthController : MonoBehaviour
     public float damageInvLength = 1f;
     private float invCount;
 
+    public GameObject impactEffect;
+
     private void Awake()
     {
         instance = this;
@@ -79,7 +81,8 @@ public class PlayerHealthController : MonoBehaviour
         {
 
             currentHealth--;
-            //AudioManager.instance.PlaySFX(10);
+            AudioManager.instance.PlaySFX(12);
+            Instantiate(impactEffect, transform.position, Quaternion.identity);
 
             invCount = damageInvLength;
 
@@ -90,6 +93,7 @@ public class PlayerHealthController : MonoBehaviour
             {
                 PlayerMovement.instance.gameObject.SetActive(false);
                 UIController.instance.deathScreen.SetActive(true);
+                AudioManager.instance.PlayGameOver();
             }
 
             //UIController.instance.healthSlider.value = currentHealth;
