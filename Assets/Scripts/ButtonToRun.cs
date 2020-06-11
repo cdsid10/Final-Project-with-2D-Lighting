@@ -43,7 +43,7 @@ public class ButtonToRun : MonoBehaviour
             {
                 timerRunning = true;
                 drillStarted = true;
-                timeToAutoKey -= Time.deltaTime;
+                
                 
             }
             
@@ -51,6 +51,7 @@ public class ButtonToRun : MonoBehaviour
         if (timerRunning)
         {
             countdown -= Time.deltaTime;
+            timeToAutoKey -= Time.deltaTime;
         }
         if (countdown > 0 && ButtonToEndRun.instance.hasCompleted && Obstacles.instance.failed == false)
         {
@@ -72,6 +73,7 @@ public class ButtonToRun : MonoBehaviour
             timerRunning = false;
             drillStarted = false;
         }
+        
 
         if (reset)
         {
