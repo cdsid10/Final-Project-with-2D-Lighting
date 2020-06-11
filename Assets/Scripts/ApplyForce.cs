@@ -19,4 +19,9 @@ public class ApplyForce : MonoBehaviour
     {
         rb.AddForce(closeDoor);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        AudioManager.instance.PlaySFX(7);
+    }
 }

@@ -6,6 +6,7 @@ public class BossBullet : MonoBehaviour
 {
     public float speed;
     private Vector3 direction;
+    public GameObject impactEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,8 @@ public class BossBullet : MonoBehaviour
         {
             PlayerHealthController.instance.DamagePlayer();
         }
+
+        Instantiate(impactEffect, transform.position, Quaternion.identity);
 
         Destroy(gameObject);
         //AudioManager.instance.PlaySFX(4);

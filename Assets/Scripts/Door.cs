@@ -29,6 +29,7 @@ public class Door : MonoBehaviour
             {
 
                 canTrigger = true;
+                
 
             }
             else
@@ -47,7 +48,9 @@ public class Door : MonoBehaviour
             key.SetActive(true);
             anim.SetTrigger("open");
 
+
             yield return new WaitForSeconds(2f);
+            AudioManager.instance.PlaySFX(0);
             Destroy(GameObject.Find("Chem Lab Key Animation"));
             Destroy(gameObject);
         }

@@ -34,6 +34,7 @@ public class EnemyRangedAttack : MonoBehaviour
                 {
                     anim.SetTrigger("isAttacking");
                     fireCounter = fireRate;
+                    AudioManager.instance.PlaySFX(8);
                     Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
                 }
             }

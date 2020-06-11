@@ -79,6 +79,7 @@ public class PlayerHealthController : MonoBehaviour
         {
 
             currentHealth--;
+            //AudioManager.instance.PlaySFX(10);
 
             invCount = damageInvLength;
 

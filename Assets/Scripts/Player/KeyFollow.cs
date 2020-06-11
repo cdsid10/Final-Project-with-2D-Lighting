@@ -28,6 +28,7 @@ public class KeyFollow : MonoBehaviour
         {
             spring.enabled = true;
             hasKey = true;
+            //AudioManager.instance.PlaySFX(1);
         }
     }
 

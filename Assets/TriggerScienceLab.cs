@@ -6,7 +6,7 @@ public class TriggerScienceLab : MonoBehaviour
 {
     public float count = 2f;
     public GameObject key;
-    
+    public bool gotKey;
 
     private bool isStepping;
 
@@ -26,6 +26,7 @@ public class TriggerScienceLab : MonoBehaviour
             if (count <= 0)
             {
                 key.SetActive(true);
+                gotKey = true;
             }
         }
     }
@@ -33,6 +34,11 @@ public class TriggerScienceLab : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isStepping = true;
+        //if(isStepping && !gotKey)
+        {
+            //AudioManager.instance.PlaySFX(8);
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)

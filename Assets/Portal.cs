@@ -44,13 +44,14 @@ public class Portal : MonoBehaviour
             anim.SetTrigger("stay");
 
 
-            if (spawned && Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < 20f)
+            if (spawned && Vector3.Distance(transform.position, PlayerMovement.instance.transform.position) < 14f)
             {
                 fireCounter -= Time.deltaTime;
 
                 if (fireCounter <= 0)
                 {
                     fireCounter = fireRate;
+                    AudioManager.instance.PlaySFX(9);
                     Instantiate(bullet, firePoint.position, firePoint.rotation);
 
                 }

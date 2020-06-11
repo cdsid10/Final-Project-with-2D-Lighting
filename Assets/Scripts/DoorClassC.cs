@@ -44,6 +44,7 @@ public class DoorClassC : MonoBehaviour
             anim.SetTrigger("open");
 
             yield return new WaitForSeconds(2f);
+            AudioManager.instance.PlaySFX(0);
             Destroy(GameObject.Find("Class C Key Animation"));
             Destroy(gameObject);
         }

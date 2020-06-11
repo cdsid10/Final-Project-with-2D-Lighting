@@ -34,6 +34,8 @@ public class Light : MonoBehaviour
             obj.SetActive(true);
         }
 
+        AudioManager.instance.LightsOut();
+
     }
 
     

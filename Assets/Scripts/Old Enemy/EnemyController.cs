@@ -104,6 +104,7 @@ public class EnemyController : MonoBehaviour
         }
 
         Instantiate(hitEffect, transform.position, transform.rotation);
+        AudioManager.instance.PlaySFX(4);
 
         if(health <= 0)
         {

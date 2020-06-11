@@ -65,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
             
                 anim.SetBool("isWalking", true);
             
+            
         }
         else
         {
@@ -84,6 +85,7 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetTrigger("dash");
 
                 PlayerHealthController.instance.MakeInvincible(dashInvincibility);
+                AudioManager.instance.PlaySFX(2);
             }
         }
 

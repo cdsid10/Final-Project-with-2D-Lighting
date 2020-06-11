@@ -19,6 +19,8 @@ public class ShootAnim : MonoBehaviour
     public float endTime;
     public bool canShoot = true;
 
+    public AudioSource audioShoot;
+    public AudioClip Pew;
 
     private void Awake()
     {
@@ -38,6 +40,7 @@ public class ShootAnim : MonoBehaviour
             if (Input.GetMouseButton(0))
             {
                 startTime += Time.deltaTime;
+                //AudioManager.instance.PlaySFX(4);
 
             }
 
@@ -49,6 +52,7 @@ public class ShootAnim : MonoBehaviour
                 anim.SetTrigger("shotaf");
 
                 Instantiate(bullets[Random.Range(0, bullets.Length)], firePoint.position, firePoint.rotation);
+                
 
                 shotCounter = timeBetweenShots;
 
@@ -68,6 +72,7 @@ public class ShootAnim : MonoBehaviour
 
             if (Input.GetMouseButton(0))
             {
+                //audioShoot.PlayOneShot(Pew, 0.5f);
                 anim.SetBool("isShooting", true);
                 textAnim.SetBool("charged", true);
                 chargedText.SetActive(true);

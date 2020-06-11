@@ -21,6 +21,7 @@ public class Explode : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerHealthController.instance.DamagePlayer();
+            other.gameObject.GetComponent<TimeStop>().StopTime(0.05f, 10, 0.1f);
 
         }
     }
