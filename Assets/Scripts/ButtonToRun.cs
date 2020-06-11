@@ -67,17 +67,19 @@ public class ButtonToRun : MonoBehaviour
         }
 
 
-        else if (countdown <= 0)
+        if (countdown <= 0)
         {
             reset = true;
-            timerRunning = false;
+            //timerRunning = false;
             drillStarted = false;
+            canStartDrill = false;
         }
         
 
         if (reset)
         {
-            countdown = 10f;
+            
+            //timerRunning = true;
         }
     }
 
